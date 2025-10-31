@@ -9,19 +9,32 @@ import RestaurantMenu from './practice/restaurant/RestaurantMenu'
 import TabSwitching from './practice/restaurant/TabSwitching'
 import TabSwitching22 from './practice/restaurant/TabSwitching22'
 import ProductMainComp from './component/e-commerce-card/ProductMainComp'
+import ShopProvider from './context/ShopContext'
+import { BrowserRouter, Routes, Route } from 'react-router'
+import ProductList from './component/ProductList'
+import Cart from './component/Cart'
+import Wishlist from './component/Wishlist'
 
 function App() {
   return (
     <div>
-      {/* <NavbarComp />
-      <AboutComp /> */}
+      {/* main page here ======================================= */}
+      <ShopProvider>
+        <BrowserRouter>
+          <NavbarComp />
+          <Routes>
+            <Route path='/' element={<ProductList />} />
+            <Route path='/cart' element={<Cart />} />
+            <Route path='/wishlist' element={<Wishlist />} />
+          </Routes>
+        </BrowserRouter>
+      </ShopProvider>
+      {/* <AboutComp /> */}
 
 
-      {/* Product List START HERE */}
-      <ProductMainComp />
-
-      {/* Product List END HERE */}
-
+      {/* Product List START HERE ==============================*/}
+      {/* <ProductMainComp /> */}
+      {/* Product List END HERE ================================= */}
 
 
       {/* practice sention all START HERE ======================== */}
@@ -30,10 +43,10 @@ function App() {
       <CourseCards />
       <ChouseUs /> */}
 
-      {/* restaurant cards sections */}
-      {/* <RestaurantAbout /> */}
-      {/* <RestaurantMenu /> */}
-      {/* <TabSwitching />
+      {/* restaurant cards sections ============ */}
+      {/* <RestaurantAbout />
+      <RestaurantMenu />
+      <TabSwitching />
       <TabSwitching22 /> */}
 
       {/* practice sention all END HERE ======================== */}
