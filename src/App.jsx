@@ -38,17 +38,15 @@ function App() {
 
 
       {/* practice sention all START HERE ======================== */}
-
-      {/* <TopCategories />
+      <TopCategories />
       <CourseCards />
-      <ChouseUs /> */}
+      <ChouseUs />
 
       {/* restaurant cards sections ============ */}
-      {/* <RestaurantAbout />
+      <RestaurantAbout />
       <RestaurantMenu />
       <TabSwitching />
-      <TabSwitching22 /> */}
-
+      <TabSwitching22 />
       {/* practice sention all END HERE ======================== */}
 
     </div>
