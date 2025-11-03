@@ -37,7 +37,7 @@ function App() {
       {/* Product List END HERE ================================= */}
 
 
-      {/* practice sention all START HERE ======================== */}
+      {/* Practice Sention all START HERE ======================== */}
       <TopCategories />
       <CourseCards />
       <ChouseUs />
