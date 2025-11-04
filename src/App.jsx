@@ -33,7 +33,7 @@ function App() {
 
 
       {/* Product List START HERE ==============================*/}
-      {/* <ProductMainComp /> */}
+      <ProductMainComp />
       {/* Product List END HERE ================================= */}
 
 
