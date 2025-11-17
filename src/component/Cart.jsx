@@ -9,7 +9,7 @@ function Cart() {
             <section className='max-w-[1400px] mx-auto px-4 my-20'>
                 <div>
                     <div>
-                        <h2 className="text-xl font-bold text-center mb-10">Your Cart</h2>
+                        <h2 className="text-xl font-bold text-center mb-10">Cart component</h2>
                         {cart.length === 0 ? (
                             <div className='text-center'>
                                 <p className='text-2xl font-semibold mb-10 text-zinc-500'>There is nothing in your bag! Let`s add some items.</p>
