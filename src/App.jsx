@@ -19,7 +19,7 @@ function App() {
   return (
     <div>
       {/* main page here ======================================= */}
-      <ShopProvider>
+      {/* <ShopProvider>
         <BrowserRouter>
           <NavbarComp />
           <Routes>
@@ -28,25 +28,25 @@ function App() {
             <Route path='/wishlist' element={<Wishlist />} />
           </Routes>
         </BrowserRouter>
-      </ShopProvider>
+      </ShopProvider> */}
       {/* <AboutComp /> */}
 
 
       {/* Product List START HERE ==============================*/}
-      <ProductMainComp />
+      {/* <ProductMainComp /> */}
       {/* Product List END HERE ================================= */}
 
 
       {/* Practice Sention all START HERE ======================== */}
-      <TopCategories />
+      {/* <TopCategories />
       <CourseCards />
-      <ChouseUs />
+      <ChouseUs /> */}
 
       {/* restaurant cards sections ============ */}
       <RestaurantAbout />
       <RestaurantMenu />
-      <TabSwitching />
-      <TabSwitching22 />
+      {/* <TabSwitching />
+      <TabSwitching22 /> */}
       {/* practice sention all END HERE ======================== */}
 
     </div>
